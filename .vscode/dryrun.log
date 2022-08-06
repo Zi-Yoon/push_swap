@@ -1,0 +1,19 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mingzi/Desktop/mingzi_dev/42_Seoul_inner_circle-master/push_swap'
+gcc -Wall -Wextra -Werror -c -g settings.c -I./ -o settings.o
+gcc -Wall -Wextra -Werror -c -g push_swap.c -I./ -o push_swap.o
+gcc -Wall -Wextra -Werror -c -g basic_push.c -I./ -o basic_push.o
+gcc -Wall -Wextra -Werror -c -g basic_rotate.c -I./ -o basic_rotate.o
+gcc -Wall -Wextra -Werror -c -g basic_r_rotate.c -I./ -o basic_r_rotate.o
+gcc -Wall -Wextra -Werror -c -g basic_swap.c -I./ -o basic_swap.o
+gcc -Wall -Wextra -Werror -c -g make_node.c -I./ -o make_node.o
+gcc -Wall -Wextra -Werror -c -g make_node_utils.c -I./ -o make_node_utils.o
+gcc -Wall -Wextra -Werror -c -g set_a_location.c -I./ -o set_a_location.o
+gcc -Wall -Wextra -Werror -c -g sort_big.c -I./ -o sort_big.o
+gcc -Wall -Wextra -Werror -c -g sort_rotate_start.c -I./ -o sort_rotate_start.o
+gcc -Wall -Wextra -Werror -c -g sort_start.c -I./ -o sort_start.o
+gcc -Wall -Wextra -Werror -c -g stack_rotate.c -I./ -o stack_rotate.o
+make all -C libft/
+gcc -o push_swap settings.o push_swap.o basic_push.o basic_rotate.o basic_r_rotate.o basic_swap.o make_node.o make_node_utils.o set_a_location.o sort_big.o sort_rotate_start.o sort_start.o stack_rotate.o -Llibft -lft
+make: Leaving directory `/Users/mingzi/Desktop/mingzi_dev/42_Seoul_inner_circle-master/push_swap'
+ 
