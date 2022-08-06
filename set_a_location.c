@@ -6,7 +6,7 @@
 /*   By: byan <byan@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/06 19:13:06 by byan              #+#    #+#             */
-/*   Updated: 2022/08/06 20:51:50 by byan             ###   ########seoul.kr  */
+/*   Updated: 2022/08/07 04:43:23 by byan             ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,6 @@ int	set_a_location_mid(int num, t_info *info)
 	return (ret);
 }
 
-// ret++
 int	set_a_location_max(t_info *info)
 {
 	int			ret;
@@ -108,4 +107,3 @@ int	set_a_location_max(t_info *info)
 		ret = (info->size_a - ret) * -1;
 	return (ret);
 }
-

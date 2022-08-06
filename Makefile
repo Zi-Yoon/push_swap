@@ -6,7 +6,7 @@
 #    By: byan <byan@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/20 10:20:15 by byan              #+#    #+#              #
-#    Updated: 2022/08/06 22:40:39 by byan             ###   ########seoul.kr   #
+#    Updated: 2022/08/07 05:15:31 by byan             ###   ########seoul.kr   #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,10 +23,9 @@ SRCS		= settings.c \
 			make_node.c \
 			make_node_utils.c \
 			set_a_location.c \
-			sort_big.c \
-			sort_rotate_start.c \
+			sort_rotate.c \
 			sort_start.c \
-			stack_rotate.c \
+			stack_rotate.c
 
 OBJS		= $(SRCS:%.c=%.o)
 LIBC		= ar rc
