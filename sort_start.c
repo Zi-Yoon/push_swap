@@ -6,7 +6,7 @@
 /*   By: byan <byan@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/20 02:36:59 by byan              #+#    #+#             */
-/*   Updated: 2022/08/06 22:13:42 by byan             ###   ########seoul.kr  */
+/*   Updated: 2022/08/12 03:08:48 by byan             ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,6 +89,25 @@ void	sort_big(t_info *info)
 	sort_finish(info);
 }
 
+void	free_a(t_info **info)
+{
+	t_node	*temp;
+	t_node	*prev;
+
+	if (!(*info)->head_a)
+		return ;
+	temp = (*info)->head_a->next;
+	prev = NULL;
+	while (temp != NULL)
+	{
+		prev = temp->next;
+		free(temp);
+		temp = prev;
+	}
+	free((*info)->head_a);
+	return ;
+}
+
 void	sort_start(t_info *info)
 {
 	if (info->size_a == 2)
@@ -100,4 +119,7 @@ void	sort_start(t_info *info)
 		sort_size_three(info);
 	else
 		sort_big(info);
+	free_a(&info);
+	free(info->arr);
+	free(info);
 }

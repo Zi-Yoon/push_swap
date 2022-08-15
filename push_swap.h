@@ -6,7 +6,7 @@
 /*   By: byan <byan@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/16 23:30:14 by byan              #+#    #+#             */
-/*   Updated: 2022/08/07 05:09:10 by byan             ###   ########seoul.kr  */
+/*   Updated: 2022/08/11 16:30:43 by byan             ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,6 +66,8 @@ int		set_a_location_max(t_info *info);
 int		print_error(int type);
 t_node	*new_node(void);
 t_info	*new_info(void);
+void	free_a(t_info **info);
+
 
 /*
 	sort_rotate.c
