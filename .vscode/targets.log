@@ -8,18 +8,18 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Sun Aug  7 05:15:33 2022
+# Make data base, printed on Mon Aug 22 01:30:19 2022
 
 # Variables
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
- 
 # automatic
 ?F = $(notdir $?)
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
+ 
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
 @F = $(notdir $@)
@@ -28,7 +28,7 @@ CURDIR := /Users/mingzi/Desktop/mingzi_dev/42_Seoul_inner_circle-master/push_swa
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"26f3b44ea4f1e942cca002e9545643cc.ko","_translationsConfigFile":"/Users/mingzi/Library/Application Support/Code/clp/26f3b44ea4f1e942cca002e9545643cc.ko/tcf.json","_cacheRoot":"/Users/mingzi/Library/Application Support/Code/clp/26f3b44ea4f1e942cca002e9545643cc.ko","_resolvedLanguagePackCoreLocation":"/Users/mingzi/Library/Application Support/Code/clp/26f3b44ea4f1e942cca002e9545643cc.ko/da76f93349a72022ca4670c1b84860304616aaa2","_corruptedFile":"/Users/mingzi/Library/Application Support/Code/clp/26f3b44ea4f1e942cca002e9545643cc.ko/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"d4733d4bd5138ffb2c9d12a76b2e9102.ko","_translationsConfigFile":"/Users/mingzi/Library/Application Support/Code/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko/tcf.json","_cacheRoot":"/Users/mingzi/Library/Application Support/Code/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko","_resolvedLanguagePackCoreLocation":"/Users/mingzi/Library/Application Support/Code/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/Users/mingzi/Library/Application Support/Code/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # makefile (from `Makefile', line 1)
@@ -36,19 +36,17 @@ MAKEFILE_LIST :=  Makefile
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-INFOPATH = /opt/homebrew/share/info:/opt/homebrew/share/info:
-# environment
 VSCODE_CWD = /
 # environment
-PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/mingzi/.cargo/bin
+PATH = /usr/bin:/bin:/usr/sbin:/sbin
 # environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
+LaunchInstanceID = C0F65805-01C4-461B-9C7F-0E2CE2362B3A
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.OuoPrPgg2S/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Nt654RkFNp/Listeners
 # automatic
 %F = $(notdir $%)
 # makefile (from `Makefile', line 30)
@@ -56,11 +54,7 @@ OBJS = $(SRCS:%.c=%.o)
 # environment
 PWD = /Users/mingzi/Desktop/mingzi_dev/42_Seoul_inner_circle-master/push_swap
 # environment
-HOMEBREW_CELLAR = /opt/homebrew/Cellar
-# environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# environment
-MANPATH = /opt/homebrew/share/man:/opt/homebrew/share/man:::
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -68,13 +62,11 @@ HOME = /Users/mingzi
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/mingzi/Library/Application Support/Code/CachedData/da76f93349a72022ca4670c1b84860304616aaa2
+VSCODE_CODE_CACHE_PATH = /Users/mingzi/Library/Application Support/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
 # environment
 LOGNAME = mingzi
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-ZSH = /Users/mingzi/.oh-my-zsh
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -99,8 +91,6 @@ USER = mingzi
 .DEFAULT_GOAL := all
 # makefile (from `Makefile', line 13)
 NAME = push_swap
-# environment
-LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -112,8 +102,7 @@ TMPDIR = /var/folders/pl/wtt6jht52xq842ht1myd9t_h0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/mingzi/Library/Application Support/Code/1.70.0-main.sock
- 
+VSCODE_IPC_HOOK = /Users/mingzi/Library/Application Support/Code/1.70.1-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -123,15 +112,11 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.13832253.13832259
-# environment
-HOMEBREW_PREFIX = /opt/homebrew
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.14110588.14110594
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
 +F = $(notdir $+)
-# environment
-HOMEBREW_REPOSITORY = /opt/homebrew
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F5:0x3:0x33
 # environment
@@ -141,11 +126,11 @@ MAKEFILES :=
 # automatic
 <F = $(notdir $<)
 # environment
-PAGER = less
-# environment
 LC_ALL = C
 # makefile (from `Makefile', line 31)
 LIBC = ar rc
+# environment
+SECURITYSESSIONID = 186b0
 # automatic
 ^F = $(notdir $^)
 # default
@@ -159,11 +144,11 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 1774
+VSCODE_PID = 609
 # makefile (from `Makefile', line 15)
 LIBFT_LIB = libft.a
 # variable set hash-table stats:
-# Load=74/1024=7%, Rehash=0, Collisions=6/105=6%
+# Load=67/1024=7%, Rehash=0, Collisions=6/98=6%
 
 # Pattern-specific Variable Values
 
@@ -171,9 +156,9 @@ LIBFT_LIB = libft.a
 
 # Directories
 
-# . (device 16777234, inode 13887750): 22 files, no impossibilities.
+# . (device 16777230, inode 13887750): 21 files, no impossibilities.
 
-# 22 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -192,7 +177,6 @@ set_a_location.o:
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 all: push_swap
 #  Phony target (prerequisite of .PHONY).
 #  Command-line target.
@@ -334,10 +318,11 @@ push_swap.o:
 
 push_swap: settings.o push_swap.o basic_push.o basic_rotate.o basic_r_rotate.o basic_swap.o make_node.o make_node_utils.o set_a_location.o sort_rotate.o sort_start.o stack_rotate.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-08-07 05:15:06
+#  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
+ 
 # Load=0/32=0%, Rehash=0, Collisions=0/3=0%
 #  commands to execute (from `Makefile', line 37):
 	make all -C $(LIBFT)/
@@ -365,7 +350,7 @@ basic_rotate.o:
 # Not a target:
 settings.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-07 03:43:24
+#  Last modified 2022-08-10 18:18:25
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -384,6 +369,6 @@ settings.c:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Aug  7 05:15:33 2022
+# Finished Make data base on Mon Aug 22 01:30:19 2022
 
  

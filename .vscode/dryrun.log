@@ -1,4 +1,4 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/mingzi/Desktop/mingzi_dev/42_Seoul_inner_circle-master/push_swap'
 gcc -Wall -Wextra -Werror -c -g settings.c -I./ -o settings.o
 gcc -Wall -Wextra -Werror -c -g push_swap.c -I./ -o push_swap.o
